@@ -1,0 +1,421 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* section1 first */
+.section1{
+    background-color: #F9F3EB;
+    height: 100vh;
+}
+
+/* responsiveness */
+/* @media (max-width: 800px) */
+.section1 header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 75%;
+    margin-inline: 4.5cm;
+    padding: 0.3cm;
+}
+.section1 header img{
+    height: 0.6cm;
+    width: 0.6cm;
+}
+
+.section1 ul{
+    display: flex;
+    list-style: none;
+}
+
+.section1 ul li a, span a{
+    text-decoration: none;
+    padding-inline: 20px;
+    padding-block: 5px;
+}
+.section1 ul li a:hover, span a:hover{
+    color: #fff;
+    background-color: #444;
+    transition: 4s;
+    cursor: pointer;
+    /* padding: 5px; */
+}
+
+/*section1 second */
+
+.section1 .second{
+    position: relative;
+}
+
+/* section1 second & section2 second */
+.section1 .second #round, .section2 .second #h{
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.section1 .second span, .section2 .second .h{
+    margin-top: 200px;
+    color: red;
+    font-size: 25px;
+}
+/* section 2 second ends here */
+
+.section1 .second h1{
+    font-size: 15ex;
+}
+
+.section1 .second .line2{
+    margin-top: 200px;
+    margin-left: 4.5cm;
+}
+.section1 .second .line2 button{
+    padding-block: 1ex;
+    padding-inline: 3px;
+}
+.section1 .second .line2 button:hover{
+    color: #444;
+    background-color: #444;
+    transition: 4s;
+}
+
+.section1 .img #h img{
+    height: 15cm;
+    width: 15cm;
+    position: absolute;
+    bottom: 1cm;
+    right: 6cm;
+}
+.section1 .img #ph img{
+    height: 5cm;
+    width: 5cm;
+    position: absolute;
+    bottom: 1cm;
+    right: 2cm;
+}
+
+/* section 2 first */
+.section2{
+    padding-top: 1cm;
+    padding-left: 4.5cm;
+    background-color: #FFFFFC;
+    /* background-color: #444; */
+    height: 259vh;
+}
+
+.section2 .first span #a{
+    border: 2px solid #C6BACF;
+    border-radius: 50%;
+    background-color: #C6BACF;
+}
+.section2 .first .Category{
+    color: #C6BACF;
+}
+
+.section2 .first #b{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.section2 .first #arrow{
+    display: flex;
+    margin-right: 4cm;
+    /* padding: 1cm; */
+}
+.section2 .first #a1, .section2 .first #a2{
+     background-color: #C6BACF;
+     margin-inline: 4px;
+     padding-block: 1ex;
+     padding-inline: 2ex;
+    }
+.section2 .first #a1:hover, .section2 .first #a2:hover{
+    background-color: #444;
+    cursor: pointer;
+    transition: 4s;
+}
+a{
+    text-decoration: none;
+}
+
+.section2 .first img{
+    height: 4cm;
+    width: 4cm;
+    margin-inline: 1.2ex;
+    margin-top: 2rex;
+}
+
+/* section 2 second */
+
+.section2 .second #second{
+    background-color: #bab7b7;
+    width: 88.6%;
+    margin-top: 3cm;
+    padding-block: 2rem;
+    position: relative;
+}
+.section2 .second .h, .section2 .second h1, .section2 .second .num, .section2 .second button{
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.section2 .second button{
+    background-color: #1050B0;
+    padding: 0.3rem;
+}
+.section2  .second #num{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0.1rem;
+    background-color: white;
+}
+.section2 .second .numall{
+    display: flex;
+} 
+.section2 .second .num{
+    display: flex;
+    font-size: 7px;
+} 
+.section2 .second img{
+    position: absolute;
+    height: 8cm;
+    width: 8cm;
+    bottom: -17cm;
+    right: 7cm;
+}
+
+/* section 2 third */
+.section2 .third{
+    padding-top: 30px;
+}
+.section2 .third img{
+    height: 9cm;
+    width: 9m;
+    padding-inline: 50px;
+}
+.section2 .third .stars{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+.section2 .third center button{
+    background-color: transparent;
+    padding: 10px;
+}
+.section2 .third center button:hover{
+    background-color: gray;
+    transition: 3s;
+    box-shadow: 2px, 2px;
+}
+
+
+/* fone size */
+@media screen and (max-width: 800px){
+    /* *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    } */
+    /* section1 first */
+    .section1{
+        background-color: #F9F3EB;
+        height: 100dvh;
+    }
+    
+    /* responsiveness */
+    /* @media (max-width: 800px) */
+    .section1 header{
+        display: flexn;
+        justify-content: space-between;
+        background-color: #fff;
+        width: 75%;
+        margin-inline: 4.5cm;
+        padding: 0.3cm;
+    }
+    .section1 header img{
+        height: 0.6cm;
+        width: 0.6cm;
+    }
+    
+    .section1 ul{
+        display: flex;
+        list-style: none;
+    }
+    
+    .section1 ul li a, span a{
+        text-decoration: none;
+        padding-inline: 20px;
+        padding-block: 5px;
+    }
+    .section1 ul li a:hover, span a:hover{
+        color: #fff;
+        background-color: #444;
+        transition: 4s;
+        cursor: pointer;
+        /* padding: 5px; */
+    }
+    
+    /*section1 second */
+    
+    .section1 .second{
+        position: relative;
+    }
+    
+    /* section1 second & section2 second */
+    .section1 .second #round, .section2 .second #h{
+        border: 2px solid red;
+        border-radius: 50%;
+        background-color: red;
+    }
+    
+    .section1 .second span, .section2 .second .h{
+        margin-top: 200px;
+        color: red;
+        font-size: 25px;
+    }
+    /* section 2 second ends here */
+    
+    .section1 .second h1{
+        font-size: 15ex;
+    }
+    
+    .section1 .second .line2{
+        margin-top: 200px;
+        margin-left: 4.5cm;
+    }
+    .section1 .second .line2 button{
+        padding-block: 1ex;
+        padding-inline: 3px;
+    }
+    .section1 .second .line2 button:hover{
+        color: #444;
+        background-color: #444;
+        transition: 4s;
+    }
+    
+    .section1 .img #h img{
+        height: 15cm;
+        width: 15cm;
+        position: absolute;
+        bottom: 1cm;
+        right: 6cm;
+    }
+    .section1 .img #ph img{
+        height: 5cm;
+        width: 5cm;
+        position: absolute;
+        bottom: 1cm;
+        right: 2cm;
+    }
+    
+    /* section 2 first */
+    .section2{
+        padding-top: 1cm;
+        padding-left: 4.5cm;
+        background-color: #FFFFFC;
+        /* background-color: #444; */
+        height: 259vh;
+    }
+    
+    .section2 .first span #a{
+        border: 2px solid #C6BACF;
+        border-radius: 50%;
+        background-color: #C6BACF;
+    }
+    .section2 .first .Category{
+        color: #C6BACF;
+    }
+    
+    .section2 .first #b{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+    .section2 .first #arrow{
+        display: flex;
+        margin-right: 4cm;
+        /* padding: 1cm; */
+    }
+    .section2 .first #a1, .section2 .first #a2{
+         background-color: #C6BACF;
+         margin-inline: 4px;
+         padding-block: 1ex;
+         padding-inline: 2ex;
+        }
+    .section2 .first #a1:hover, .section2 .first #a2:hover{
+        background-color: #444;
+        cursor: pointer;
+        transition: 4s;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    .section2 .first img{
+        height: 4cm;
+        width: 4cm;
+        margin-inline: 1.2ex;
+        margin-top: 2rex;
+    }
+    
+    /* section 2 second */
+    
+    .section2 .second #second{
+        background-color: #bab7b7;
+        width: 88.6%;
+        margin-top: 3cm;
+        padding-block: 2rem;
+        position: relative;
+    }
+    .section2 .second .h, .section2 .second h1, .section2 .second .num, .section2 .second button{
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+    .section2 .second button{
+        background-color: #1050B0;
+        padding: 0.3rem;
+    }
+    .section2  .second #num{
+        border: 2px solid white;
+        border-radius: 50%;
+        padding: 0.1rem;
+        background-color: white;
+    }
+    .section2 .second .numall{
+        display: flex;
+    } 
+    .section2 .second .num{
+        display: flex;
+        font-size: 7px;
+    } 
+    .section2 .second img{
+        position: absolute;
+        height: 8cm;
+        width: 8cm;
+        bottom: -17cm;
+        right: 7cm;
+    }
+    
+    /* section 2 third */
+    .section2 .third{
+        padding-top: 30px;
+    }
+    .section2 .third img{
+        height: 9cm;
+        width: 9m;
+        padding-inline: 50px;
+    }
+    .section2 .third .stars{
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+    }
+    .section2 .third center button{
+        background-color: transparent;
+        padding: 10px;
+    }
+    .section2 .third center button:hover{
+        background-color: gray;
+        transition: 3s;
+        box-shadow: 2px, 2px;
+    }
+}
